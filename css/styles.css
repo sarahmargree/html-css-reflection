@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+.icon-code {
+  stroke: #926fb1;
+  fill: #926fb1;
+}
+
+.heading-block {
+  display: flex;
+  justify-content: center;
+  
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  padding: 1em;
+  line-height: 1em;
+}
+
+.heading, .support, .contact, .search, .hamburger {
+  justify-content: center;
+  align-self: center;
+  padding: 1em;
+  line-height: 1em;
+}
+
+.heading-block a {
+  text-decoration: none;
+  color: #000;
+}
+
+.hero-image {
+  background-image: url("../resources/asset3.jpeg");
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background: #333645;
+
+}
+
+nav ul,
+nav li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav li {
+  /* flex-direction: column; */
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
+  width: 175px;  
+  background-color: #333645;  
+  padding: 1em;
+  line-height: 1em;
+}
+
+small {
+  font-size: 0.6em;
+  padding: 0;
+}
+footer {
+  display: flex;
+}
+

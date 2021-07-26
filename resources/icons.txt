@@ -1,0 +1,175 @@
+
+"embed2" </> WEB DESIGN
+/* HTML 
+<svg class="icon icon-code"><use xlink:href="#icon-code"></use></svg>
+
+/* XML
+<symbol id="icon-code" viewBox="0 0 60 60">
+<path d="M17.157 44.25c-0.708 0-1.422-0.249-1.992-0.756l-15.18-13.494 16.023-14.244c1.236-1.095 3.132-0.99 4.233 0.249s0.99 3.135-0.249 4.236l-10.977 9.759 10.134 9.006c1.239 1.101 1.35 2.997 0.249 4.236-0.591 0.669-1.416 1.008-2.241 1.008zM43.992 44.244l16.023-14.244-15.18-13.494c-1.239-1.101-3.135-0.99-4.233 0.249-1.101 1.239-0.99 3.135 0.249 4.236l10.134 9.009-10.977 9.756c-1.239 1.101-1.35 2.997-0.249 4.236 0.591 0.669 1.416 1.008 2.241 1.008 0.708 0 1.422-0.249 1.992-0.756zM29.958 48.495l6-36c0.273-1.635-0.831-3.18-2.466-3.453-1.641-0.276-3.183 0.831-3.45 2.466l-6 36c-0.273 1.635 0.831 3.18 2.466 3.453 0.168 0.027 0.33 0.039 0.495 0.039 1.44 0 2.712-1.041 2.955-2.505z"></path>
+</symbol>
+
+/* CSS
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+"display" screen IT SUPPORT
+/* HTML
+<svg class="icon icon-display"><use xlink:href="#icon-display"></use></svg>
+
+/* XML
+<symbol id="icon-display" viewBox="0 0 64 64">
+<path d="M0 4v40h64v-40h-64zM60 40h-56v-32h56v32zM42 48h-20l-2 8-4 4h32l-4-4z"></path>
+</symbol>
+
+/* CSS
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+"phone_in_talk" phone TELECOMS SERVICES
+/* HTML
+<svg class="icon icon-phone_in_talk"><use xlink:href="#icon-phone_in_talk"></use></svg>
+
+/* XML
+<symbol id="icon-phone_in_talk" viewBox="0 0 48 48">
+<path d="M30 24q0-2.438-1.781-4.219t-4.219-1.781v-4.031q4.125 0 7.078 2.953t2.953 7.078h-4.031zM37.969 24q0-5.813-4.078-9.891t-9.891-4.078v-4.031q7.5 0 12.75 5.25t5.25 12.75h-4.031zM40.031 31.031q0.844 0 1.406 0.563t0.563 1.406v7.031q0 0.844-0.563 1.406t-1.406 0.563q-14.063 0-24.047-9.984t-9.984-24.047q0-0.844 0.563-1.406t1.406-0.563h7.031q0.844 0 1.406 0.563t0.563 1.406v0.094q0 3.844 1.125 7.031 0.188 0.375 0.188 0.656 0 0.938-0.656 1.406l-4.406 4.406q1.875 3.563 5.766 7.453t7.453 5.766l4.406-4.406q0.656-0.656 1.406-0.656 0.281 0 0.656 0.188 3.375 1.125 7.125 1.125z"></path>
+</symbol>
+
+/* CSS
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+"apps" keypad BESPOKE SOFTWARE
+/* HTML
+<svg class="icon icon-apps"><use xlink:href="#icon-apps"></use></svg>
+
+/* XML
+<symbol id="icon-apps" viewBox="0 0 48 48">
+<path d="M31.969 40.031v-8.063h8.063v8.063h-8.063zM31.969 28.031v-8.063h8.063v8.063h-8.063zM19.969 16.031v-8.063h8.063v8.063h-8.063zM31.969 7.969h8.063v8.063h-8.063v-8.063zM19.969 28.031v-8.063h8.063v8.063h-8.063zM7.969 28.031v-8.063h8.063v8.063h-8.063zM7.969 40.031v-8.063h8.063v8.063h-8.063zM19.969 40.031v-8.063h8.063v8.063h-8.063zM7.969 16.031v-8.063h8.063v8.063h-8.063z"></path>
+</symbol>
+
+/* CSS
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+"bar-graph" three lines DIGITAL MARKETING
+/* HTML
+<svg class="icon icon-bar-graph"><use xlink:href="#icon-bar-graph"></use></svg>
+
+/* XML
+<symbol id="icon-bar-graph" viewBox="0 0 60 60">
+<path d="M51 3h-6c-1.656 0-3 1.341-3 3v50.976h12v-50.976c0-1.659-1.341-3-3-3zM33 21h-6c-1.656 0-3 1.341-3 3v32.976h12v-32.976c0-1.659-1.341-3-3-3zM15 39h-6c-1.656 0-3 1.341-3 3v14.976h12v-14.976c0-1.659-1.341-3-3-3z"></path>
+</symbol>
+
+/* CSS
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+"security" shield CYBER SECURITY
+/* HTML
+<svg class="icon icon-security"><use xlink:href="#icon-security"></use></svg>
+
+/* XML
+<symbol id="icon-security" viewBox="0 0 48 48">
+<path d="M24 1.969l18 8.063v12q0 8.344-5.156 15.234t-12.844 8.766q-7.688-1.875-12.844-8.766t-5.156-15.234v-12zM24 24v17.906q5.531-1.781 9.375-6.703t4.594-11.203h-13.969zM24 24v-17.625l-13.969 6.188v11.438h13.969z"></path>
+</symbol>
+
+/* CSS
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+"paperplane" paper plane CONTACT
+/* HTML
+<svg class="icon icon-paperplane"><use xlink:href="#icon-paperplane"></use></svg>
+
+/* XML
+<symbol id="icon-paperplane" viewBox="0 0 32 32">
+<path d="M31.543 0.16c-0.166-0.107-0.355-0.16-0.543-0.16-0.193 0-0.387 0.055-0.555 0.168l-30 20c-0.309 0.205-0.479 0.566-0.439 0.936 0.038 0.369 0.278 0.688 0.623 0.824l7.824 3.131 3.679 6.438c0.176 0.309 0.503 0.5 0.857 0.504 0.004 0 0.007 0 0.011 0 0.351 0 0.677-0.186 0.857-0.486l2.077-3.463 9.695 3.877c0.119 0.048 0.244 0.071 0.371 0.071 0.17 0 0.338-0.043 0.49-0.129 0.264-0.148 0.445-0.408 0.496-0.707l5-30c0.065-0.393-0.109-0.787-0.443-1.004zM3.136 20.777l23.175-15.451-16.85 18.037c-0.089-0.053-0.168-0.123-0.266-0.162l-6.059-2.424zM10.189 24.066c-0.002-0.004-0.005-0.006-0.007-0.010l18.943-20.275-16.149 25.162-2.787-4.877zM25.217 29.609l-8.541-3.416c-0.203-0.080-0.414-0.107-0.623-0.119l13.152-20.388-3.988 23.923z"></path>
+</symbol>
+
+/* CSS
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+"mouse" mouse SUPPORT
+/* HTML
+<svg class="icon icon-mouse"><use xlink:href="#icon-mouse"></use></svg>
+
+/* XML
+<symbol id="icon-mouse" viewBox="0 0 48 48">
+<path d="M22.031 2.156v15.844h-14.063q0-6.094 4.078-10.594t9.984-5.25zM7.969 30v-7.969h32.063v7.969q0 6.563-4.734 11.297t-11.297 4.734-11.297-4.734-4.734-11.297zM25.969 2.156q5.906 0.75 9.984 5.25t4.078 10.594h-14.063v-15.844z"></path>
+</symbol>
+
+/* CSS
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+"menu" three lines HAMBURGER
+/* HTML
+<svg class="icon icon-menu"><use xlink:href="#icon-menu"></use></svg>
+
+/* XML
+<symbol id="icon-menu" viewBox="0 0 64 64">
+<path d="M4 12h56v12h-56zM4 28h56v12h-56zM4 44h56v12h-56z"></path>
+</symbol>
+
+/* CSS
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* HTML
+/* XML
+/* CSS
