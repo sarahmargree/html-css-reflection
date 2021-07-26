@@ -51,6 +51,9 @@ ul {
 
 .hero-image {
   background-image: url("../resources/asset3.jpeg");
+  min-height:fit-content;
+  color: white;
+
 }
 
 nav a {
@@ -60,7 +63,7 @@ nav a {
 
 nav {
   background: #333645;
-
+  border-bottom: 1px solid #666;
 }
 
 nav ul,
@@ -68,6 +71,10 @@ nav li {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+nav ul {
+
 }
 
 nav li {
@@ -81,6 +88,9 @@ nav li {
   background-color: #333645;  
   padding: 1em;
   line-height: 1em;
+  border-top: none;
+  border-right: 1px solid #666;
+  border-left: 1px solid #000;
 }
 
 small {
@@ -91,3 +101,56 @@ footer {
   display: flex;
 }
 
+.customers {
+  background-color: #fcfcfc;
+}
+.custimages {
+  display: flex;
+  justify-content: center;
+}
+
+.custimages li {
+  /* width: 200px;   */
+  padding: 0 2em;
+  margin: 0 20px;
+}
+
+#custim1 {
+  background-image: url('../resources/asset14.jpeg');
+  height: 70px;
+  width: 188px;
+}
+
+#custim1:hover {
+  background-image: url('../resources/asset13.png')
+}
+
+#custim2 {
+  background-image: url('../resources/asset16.jpeg');
+  height: 70px;
+  width: 287px;
+}
+
+#custim2:hover {
+  background-image: url('../resources/asset15.png')
+}
+
+#custim3 {
+  background-image: url('../resources/asset18.jpeg');
+  height: 70px;
+  width: 72px;
+}
+
+#custim3:hover {
+  background-image: url('../resources/asset17.png')
+}
+
+#custim4 {
+  background-image: url('../resources/asset20.jpeg');
+  height: 70px;
+  width: 322px;
+}
+
+#custim4:hover {
+  background-image: url('../resources/asset19.png')
+}
