@@ -1,8 +1,15 @@
+/* ----------------------------------------
+  Reset 
+---------------------------------------- */
+  
 * {
   margin: 0;
   padding: 0;
 }
 
+/* ----------------------------------------
+  General 
+---------------------------------------- */
 body {
 
 }
@@ -49,7 +56,7 @@ ul {
   color: #000;
 }
 
-.hero-image {
+.hero {
   background-image: url("../resources/asset3.jpeg");
   min-height:fit-content;
   color: white;
@@ -102,7 +109,8 @@ footer {
 }
 
 .customers {
-  background-color: #fcfcfc;
+  background-image: linear-gradient(#efefef, #ffffff);
+  padding: 2em;
 }
 .custimages {
   display: flex;
@@ -116,7 +124,7 @@ footer {
 }
 
 #custim1 {
-  background-image: url('../resources/asset14.jpeg');
+  background-image: url('../resources/asset14.png');
   height: 70px;
   width: 188px;
 }
@@ -126,7 +134,7 @@ footer {
 }
 
 #custim2 {
-  background-image: url('../resources/asset16.jpeg');
+  background-image: url('../resources/asset16.png');
   height: 70px;
   width: 287px;
 }
@@ -136,7 +144,7 @@ footer {
 }
 
 #custim3 {
-  background-image: url('../resources/asset18.jpeg');
+  background-image: url('../resources/asset18.png');
   height: 70px;
   width: 72px;
 }
@@ -146,11 +154,15 @@ footer {
 }
 
 #custim4 {
-  background-image: url('../resources/asset20.jpeg');
+  background-image: url('../resources/asset20.png');
   height: 70px;
   width: 322px;
 }
 
 #custim4:hover {
   background-image: url('../resources/asset19.png')
+}
+
+.newsletter {
+  background: #ddd;
 }

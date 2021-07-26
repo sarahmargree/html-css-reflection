@@ -170,6 +170,41 @@
   fill: currentColor;
 }
 
+"school" mortarboard 
+/* HTML
+<svg class="icon icon-school"><use xlink:href="#icon-school"></use></svg>
+
+/* XML
+<symbol id="icon-school" viewBox="0 0 48 48">
+<path d="M24 6l22.031 12v16.031h-4.031v-13.875l-18 9.844-22.031-12zM10.031 26.344l13.969 7.688 13.969-7.688v8.063l-13.969 7.594-13.969-7.594v-8.063z"></path>
+</symbol>
+
+/* CSS
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+
+/* HTML
+/* XML
+/* CSS
+
+
+/* HTML
+/* XML
+/* CSS
+
+
+/* HTML
+/* XML
+/* CSS
+
+
 /* HTML
 /* XML
 /* CSS
