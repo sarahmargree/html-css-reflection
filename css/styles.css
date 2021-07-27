@@ -1,47 +1,41 @@
 /* ----------------------------------------
-  Reset 
+  RESET
 ---------------------------------------- */
   
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+
+
 /* ----------------------------------------
-  General 
+  GENERAL 
 ---------------------------------------- */
 body {
-
+	
 }
 
 ul {
   list-style-type: none;
 }
 
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
+a {
+  text-decoration: none;
 }
 
-.icon-code {
-  stroke: #926fb1;
-  fill: #926fb1;
-}
+/* ----------------------------------------
+  MAIN MENU
+---------------------------------------- */
 
 .heading-block {
   display: flex;
-  justify-content: center;
-  
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1.2em;
   text-transform: uppercase;
   padding: 1em;
-  line-height: 1em;
 }
 
 .heading, .support, .contact, .search, .hamburger {
@@ -52,19 +46,25 @@ ul {
 }
 
 .heading-block a {
-  text-decoration: none;
   color: #000;
 }
+
+/* ----------------------------------------
+  HERO AREA
+---------------------------------------- */
 
 .hero {
   background-image: url("../resources/asset3.jpeg");
   min-height:fit-content;
   color: white;
-
 }
 
+/* ----------------------------------------
+  HERO AREA
+---------------------------------------- */
+
 nav a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: white;
 }
 
@@ -80,12 +80,7 @@ nav li {
   justify-content: center;
 }
 
-nav ul {
-
-}
-
 nav li {
-  /* flex-direction: column; */
   text-align: center;
   font-family: 'Poppins', sans-serif;
   font-size: 1.2em;
@@ -104,9 +99,11 @@ small {
   font-size: 0.6em;
   padding: 0;
 }
-footer {
-  display: flex;
-}
+
+
+/* ----------------------------------------
+  CUSTOMERS AREA
+---------------------------------------- */
 
 .customers {
   background-image: linear-gradient(#efefef, #ffffff);
@@ -118,7 +115,6 @@ footer {
 }
 
 .custimages li {
-  /* width: 200px;   */
   padding: 0 2em;
   margin: 0 20px;
 }
@@ -163,6 +159,17 @@ footer {
   background-image: url('../resources/asset19.png')
 }
 
+/* ----------------------------------------
+  NEWSLETTER FORM AREA
+---------------------------------------- */
+
 .newsletter {
   background: #ddd;
+}
+
+/* ----------------------------------------
+  FOOTER AREA
+---------------------------------------- */
+footer {
+  display: flex;
 }
