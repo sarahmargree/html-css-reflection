@@ -6,15 +6,12 @@
   box-sizing: border-box;
 }
 
-
-
 /* ----------------------------------------
   GENERAL 
 ---------------------------------------- */
 
 body {
   color: #000;
-  // background: lemonchiffon;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   /* line-height: 1.5; */
@@ -36,6 +33,11 @@ ul, li {
   /* height: auto; */
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 /* ----------------------------------------
   TOP NAV
 ---------------------------------------- */
@@ -43,6 +45,7 @@ ul, li {
 .top-nav-container {
   background: #fff;
   width: 100%;
+  order: 1;
 }
 
 .top-nav {
@@ -137,6 +140,7 @@ ul, li {
 
 .hero-image {
   display: flex;
+  order: 2;
   width: 100%;
   height: 100vh;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)), url("../resources/asset3.jpeg") no-repeat;
@@ -264,27 +268,174 @@ footer {
 ---------------------------------------- */
 
 @media (min-width: 769px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top-nav-container {
+    background: #fff;
+    width: 100%;
+    order: 1;
+  }
+  
   .top-nav {
 		height: 200px;
 		justify-content: flex-end;
 	}
+
 	.site-logo {
 		width: 350px;
 	}
+
 	.nav {
 		margin-top: 3em;
 		flex-direction: row;
 		justify-content: space-between;
 	}
+
 	.nav a {
 		border-bottom-color: transparent;
 	}
+
   .search {
     max-width: 400px;
     order: 3;
   }
+
   .hamburger {
     order: 4;
+  }
+
+  
+  /* ----------------------------------------
+    MAIN-CONTENT
+  ---------------------------------------- */
+
+  .hero-image {
+    display: flex;
+    order: 3;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.75)), url("../resources/asset3.jpeg") no-repeat;
+    background-size: cover;
+  }
+
+  .main-content {
+    width: 95%;
+    margin: auto;
+    color: white;
+  }
+
+  .hormenu a {
+    /* text-decoration: none; */
+    color: white;
+    order: 2;
+  }
+
+  .hormenu {
+    background: #333645;
+    border-bottom: 1px solid #666;
+  }
+
+  .hormenu ul,
+  .hormenu li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hormenu li {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    text-transform: uppercase;
+    width: 175px;  
+    background-color: #333645;  
+    padding: 1em;
+    line-height: 1em;
+    border-top: none;
+    border-right: 1px solid #666;
+    border-left: 1px solid #000;
+  }
+
+  small {
+    font-size: 0.6em;
+    padding: 0;
+  }
+
+  /* ----------------------------------------
+    CUSTOMERS AREA
+  ---------------------------------------- */
+
+  .customers {
+    background-image: linear-gradient(#efefef, #ffffff);
+    padding: 2em;
+  }
+  .custimages {
+    display: flex;
+    justify-content: center;
+  }
+
+  .custimages li {
+    padding: 0 2em;
+    margin: 0 20px;
+  }
+
+  #custim1 {
+    background-image: url('../resources/asset14.png');
+    height: 70px;
+    width: 188px;
+  }
+
+  #custim1:hover {
+    background-image: url('../resources/asset13.png')
+  }
+
+  #custim2 {
+    background-image: url('../resources/asset16.png');
+    height: 70px;
+    width: 287px;
+  }
+
+  #custim2:hover {
+    background-image: url('../resources/asset15.png')
+  }
+
+  #custim3 {
+    background-image: url('../resources/asset18.png');
+    height: 70px;
+    width: 72px;
+  }
+
+  #custim3:hover {
+    background-image: url('../resources/asset17.png')
+  }
+
+  #custim4 {
+    background-image: url('../resources/asset20.png');
+    height: 70px;
+    width: 322px;
+  }
+
+  #custim4:hover {
+    background-image: url('../resources/asset19.png')
+  }
+
+  /* ----------------------------------------
+    NEWSLETTER FORM AREA
+  ---------------------------------------- */
+
+  .newsletter {
+    background: #ddd;
+  }
+
+  /* ----------------------------------------
+    FOOTER AREA
+  ---------------------------------------- */
+  footer {
+    display: flex;
   }
 }
 
