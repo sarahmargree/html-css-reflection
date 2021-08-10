@@ -33,7 +33,7 @@ ul, li {
   /* height: auto; */
 }
 
-.container {
+.wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -151,6 +151,7 @@ ul, li {
   width: 95%;
   margin: auto;
   color: white;
+  text-align: center;
 }
 
 .hormenu a {
