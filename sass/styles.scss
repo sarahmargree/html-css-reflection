@@ -7,20 +7,39 @@
 }
 
 /* ----------------------------------------
+  VARIABLES - COLOURS 
+---------------------------------------- */
+
+$color-web-design: #926fb1;
+$color-web-design-dark: #79539a;
+$color-it-support: #4183d7;
+$color-it-support-dark: #286abd;
+$color-telecom-services: #d64541;
+$color-telecom-services-dark: #bc2c28;
+$color-bespoke-software: #67809f;
+$color-bespoke-software-dark: #526781;
+$color-digital-marketing: #2ecc71;
+$color-digital-marketing-dark: #25a25a;
+$color-cyber-security: #f62459;
+$color-cyber-security-dark: #de093f;
+$color-white: #fff;
+$color-black: #333645;
+
+/* ----------------------------------------
   GENERAL 
 ---------------------------------------- */
 
 body {
-  color: #000;
+  color: $color-black;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   /* line-height: 1.5; */
   margin: 0;
 }
 
-h1 {
-  font-size: 1.5em;
-}
+// h1 {
+//   font-size: 1.5em;
+// }
 
 ul, li {
   margin: 0;
@@ -43,13 +62,14 @@ ul, li {
 ---------------------------------------- */
 
 .top-nav-container {
-  background: #fff;
+  background: $color-white;
   width: 100%;
   order: 1;
+  height: 170px;
 }
 
 .top-nav {
-  padding: 10px 2px;
+  padding: 15px 2px;
   width: 95%;
   margin: auto;
   
@@ -64,7 +84,7 @@ ul, li {
 
 .nav {
 	margin-top: 0.5em;
-  background: #fff;
+  background: $color-white;
   width: 100%;
   justify-content: space-between;
   padding-right: 5px;
@@ -77,7 +97,7 @@ ul, li {
 .nav a:visited {
 	text-align: center;
   text-decoration: none;
-  color: #fff;
+  color: $color-white;
 }
 
 .nav li {
@@ -89,14 +109,14 @@ ul, li {
 }
 
 .site-logo {
-  background: #fff;
-  width: 300px;
+  background: $color-white;
+  width: 325px;
   order: 1;
   /* flex-grow: 3; */
 }
 
 .contact {
-  background: #fff;
+  background: $color-white;
   order: 2;
   /* flex-grow: 1; */
   /* padding-top: 20px;  */
@@ -105,14 +125,15 @@ ul, li {
 }
 
 .contact:hover {
-  border-bottom: 4px solid #000;
+  // border-bottom: 4px solid $color-black;
+  text-decoration: underline;
 }
 
 .hamburger {
-  background: #333645;
+  background: $color-black;
   order: 3;
   border-radius: 3px;
-  color: #fff;
+  color: $color-white;
   font-size: 0.8em;
   text-transform: uppercase;
   /* flex-grow: 1; */
@@ -120,7 +141,7 @@ ul, li {
 }
 
 .hamburger:hover {
-  background: #000;
+  background: $color-black;
 }
 
 .search {
@@ -150,45 +171,48 @@ ul, li {
 .main-content {
   width: 95%;
   margin: auto;
-  color: white;
+  color: $color-white;
   text-align: center;
+  align-content: center;
+  line-height: 2em;
 }
 
-.hormenu a {
-  /* text-decoration: none; */
-  color: white;
+.main-content h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 400;
 }
+
+.main-content h2 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.more-button {
+  text-transform: uppercase;
+  background: $color-web-design;
+  width: fit-content;
+  // height: 50px;
+  border-radius: 3px;
+  align-content: center;
+  align-items: center;
+  font-size: 1.25em;
+  padding: 16px 20px;
+  
+}
+
+.arrow {
+  font-size: 1.25em;
+}
+
+
+
+/* ----------------------------------------
+  HORIZONTAL MENU
+---------------------------------------- */
 
 .hormenu {
-  background: #333645;
-  border-bottom: 1px solid #666;
-}
-
-.hormenu ul,
-.hormenu li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.hormenu li {
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.2em;
-  color: white;
-  text-transform: uppercase;
-  width: 175px;  
-  background-color: #333645;  
-  padding: 1em;
-  line-height: 1em;
-  border-top: none;
-  border-right: 1px solid #666;
-  border-left: 1px solid #000;
-}
-
-small {
-  font-size: 0.6em;
-  padding: 0;
+  display: none;
 }
 
 /* ----------------------------------------
@@ -275,7 +299,7 @@ footer {
   }
 
   .top-nav-container {
-    background: #fff;
+    background: $color-white;
     width: 100%;
     order: 1;
   }
@@ -325,35 +349,40 @@ footer {
   .main-content {
     width: 95%;
     margin: auto;
-    color: white;
+    color: $color-white;
   }
 
-  .hormenu a {
-    /* text-decoration: none; */
-    color: white;
+  /* ----------------------------------------
+    HORIZONTAL-MENU
+  ---------------------------------------- */
+
+  .hormenu {
+    display: flex;
+    justify-content: center;
+    background: $color-black;
+    border-bottom: 1px solid #666;
     order: 2;
   }
 
-  .hormenu {
-    background: #333645;
-    border-bottom: 1px solid #666;
+  .hormenu a {
+    text-decoration: none; 
+    color: $color-white;
   }
 
-  .hormenu ul,
-  .hormenu li {
+  .hormenu ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .hormenu li {
+  .hormenu ul li {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 1.2em;
-    color: white;
+    color: $color-white;
     text-transform: uppercase;
     width: 175px;  
-    background-color: #333645;  
+    background-color: $color-black;  
     padding: 1em;
     line-height: 1em;
     border-top: none;
@@ -364,6 +393,32 @@ footer {
   small {
     font-size: 0.6em;
     padding: 0;
+  }
+
+  .web-design-sub {
+    display: none;
+  }
+
+  .web-design:hover {
+    background: $color-web-design-dark;
+    .web-design-sub {
+      display: inline;
+    }
+  }
+  .it-support:hover {
+    background: $color-it-support-dark;
+  }
+  .telecoms-services:hover {
+    background: $color-telecom-services-dark;
+  }
+  .bespoke-software:hover {
+    background: $color-bespoke-software-dark;
+  }
+  .digital-marketing:hover {
+    background: $color-digital-marketing-dark;
+  }
+  .cyber-security:hover {
+    background: $color-cyber-security-dark;
   }
 
   /* ----------------------------------------
