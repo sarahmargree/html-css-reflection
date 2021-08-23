@@ -1,0 +1,10 @@
+@mixin center {
+  width: 95%;
+  margin: auto;
+}
+
+@mixin white-hyperlinks {
+  text-align: center;
+  text-decoration: none;
+  color: $color-white;
+}

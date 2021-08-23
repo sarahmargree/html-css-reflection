@@ -1,0 +1,93 @@
+.top-nav {
+  padding: 15px 2px;
+  @include center;
+}
+
+.top-nav, .nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  // justify-content: center;
+}
+
+.nav {
+ 	margin-top: 0.5em;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 5px;
+  // align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.nav li {
+  padding: 5px;
+}
+
+.site-logo {
+  order: 1;
+  flex-grow: 4;
+  #netmatters-logo {
+    height: 56.16px;
+  }
+}
+
+.contact {
+  order: 2;
+  flex-grow: 1;
+  height: 32px;
+  margin-right: 5px;
+  img {
+    width: 32px;
+  }
+  &:hover {
+    border-bottom: 3px solid $color-black;
+  }
+}
+
+.hamburger {
+  background: $color-black;
+  order: 3;
+  text-align: center;
+  border-radius: 3px;
+  // flex-grow: 1;
+  height: 56px;
+  width: 60px;
+}
+
+.hamburger:hover {
+  background: #000;
+}
+
+.search {
+  order: 4;
+  flex-grow: 6;
+  #srch-fld {
+    height: 50px;
+    width: 90%; //411px;
+    background: #e5e5e5;
+    border-top: 2.5px solid #cecece;
+    border-bottom: 2.5px solid #cecece;
+    border-left: 2.5px solid #cecece;
+    border-right: none;
+    color: #999;
+    border-radius: 2px;
+    text-align: left;
+    padding: 5px 15px;
+    vertical-align:bottom;
+    font-family: inherit;
+  }
+  #srch-btn {
+    height: 50px;
+    width: 10%; //45px;
+    background: #e5e5e5;
+    border-top: 2.5px solid #cecece;
+    border-bottom: 2.5px solid #cecece;
+    border-right: 2.5px solid #cecece;
+    border-left: none;
+    color: #999;
+    border-radius: 2px;
+    text-align: left;
+    padding: 5px 10px;
+    vertical-align:bottom;
+  }
+}
